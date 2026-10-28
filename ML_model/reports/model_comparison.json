@@ -1,0 +1,1249 @@
+{
+  "models": {
+    "rf": {
+      "model_key": "rf",
+      "model_name": "Random Forest Classifier",
+      "mean_test_accuracy": 0.618,
+      "std_test_accuracy": 0.0376,
+      "mean_train_accuracy": 1.0,
+      "mean_macro_precision": 0.6653,
+      "std_macro_precision": 0.0435,
+      "mean_macro_recall": 0.6352,
+      "std_macro_recall": 0.0381,
+      "mean_macro_f1": 0.6336,
+      "std_macro_f1": 0.0408,
+      "mean_weighted_f1": 0.61,
+      "std_weighted_f1": 0.0407,
+      "global_oof_accuracy": 0.6172,
+      "global_oof_macro_f1": 0.6401,
+      "global_oof_weighted_f1": 0.6177,
+      "total_train_time_sec": 12.64,
+      "single_sample_latency_us": 101968.21,
+      "batch_100_latency_ms": 125.66,
+      "overfitting_gap": 0.382,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6197021764032073,
+          "macro_precision": 0.676116981736467,
+          "macro_recall": 0.6644317091177556,
+          "macro_f1": 0.6512843336567407,
+          "weighted_f1": 0.6100507689833702,
+          "train_time_sec": 1.29
+        },
+        {
+          "fold": 2,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6058558558558559,
+          "macro_precision": 0.6510782798366881,
+          "macro_recall": 0.6258443223443223,
+          "macro_f1": 0.6297575267089202,
+          "weighted_f1": 0.6032007736570768,
+          "train_time_sec": 1.24
+        },
+        {
+          "fold": 3,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.5751351351351351,
+          "macro_precision": 0.6205570003109973,
+          "macro_recall": 0.606335290038641,
+          "macro_f1": 0.6033284087263919,
+          "weighted_f1": 0.569191501794434,
+          "train_time_sec": 1.24
+        },
+        {
+          "fold": 4,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.5868686868686869,
+          "macro_precision": 0.6211730353706908,
+          "macro_recall": 0.5730976589794361,
+          "macro_f1": 0.5656773059784544,
+          "weighted_f1": 0.5684943370086056,
+          "train_time_sec": 1.23
+        },
+        {
+          "fold": 5,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6346153846153846,
+          "macro_precision": 0.7087150020017665,
+          "macro_recall": 0.6527374406653539,
+          "macro_f1": 0.6494399906199421,
+          "weighted_f1": 0.6313687040495521,
+          "train_time_sec": 1.25
+        },
+        {
+          "fold": 6,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6245443499392467,
+          "macro_precision": 0.6726331706231166,
+          "macro_recall": 0.6606662444236842,
+          "macro_f1": 0.6572713465588427,
+          "weighted_f1": 0.6179816755606502,
+          "train_time_sec": 1.27
+        },
+        {
+          "fold": 7,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.5799522673031027,
+          "macro_precision": 0.6083572458036139,
+          "macro_recall": 0.580137491594995,
+          "macro_f1": 0.5801059905700966,
+          "weighted_f1": 0.566149480987539,
+          "train_time_sec": 1.29
+        },
+        {
+          "fold": 8,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.598014888337469,
+          "macro_precision": 0.6473455976406052,
+          "macro_recall": 0.6296037296037296,
+          "macro_f1": 0.627772078982107,
+          "weighted_f1": 0.5915655984440776,
+          "train_time_sec": 1.28
+        },
+        {
+          "fold": 9,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6470588235294118,
+          "macro_precision": 0.6883701646111646,
+          "macro_recall": 0.6589588442259922,
+          "macro_f1": 0.6574586127810421,
+          "weighted_f1": 0.6320454069639753,
+          "train_time_sec": 1.28
+        },
+        {
+          "fold": 10,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.7084826762246117,
+          "macro_precision": 0.7582394756845128,
+          "macro_recall": 0.7006480540932056,
+          "macro_f1": 0.7143494221086095,
+          "weighted_f1": 0.7094735579990801,
+          "train_time_sec": 1.27
+        }
+      ],
+      "per_class_f1": {
+        "air_conditioner": 0.5652,
+        "car_horn": 0.6805,
+        "children_playing": 0.6115,
+        "dog_bark": 0.6972,
+        "drilling": 0.5812,
+        "engine_idling": 0.5197,
+        "gun_shot": 0.9001,
+        "jackhammer": 0.5201,
+        "siren": 0.7778,
+        "street_music": 0.5481
+      },
+      "per_class_recall": {
+        "air_conditioner": 0.503,
+        "car_horn": 0.5734,
+        "children_playing": 0.654,
+        "dog_bark": 0.708,
+        "drilling": 0.653,
+        "engine_idling": 0.449,
+        "gun_shot": 0.8556,
+        "jackhammer": 0.492,
+        "siren": 0.7632,
+        "street_music": 0.655
+      },
+      "top_confused_pairs": [
+        {
+          "true_class": "jackhammer",
+          "predicted_class": "drilling",
+          "count": 254,
+          "true_class_total": 1000,
+          "error_rate_pct": 25.4
+        },
+        {
+          "true_class": "engine_idling",
+          "predicted_class": "drilling",
+          "count": 142,
+          "true_class_total": 1000,
+          "error_rate_pct": 14.2
+        },
+        {
+          "true_class": "air_conditioner",
+          "predicted_class": "street_music",
+          "count": 137,
+          "true_class_total": 1000,
+          "error_rate_pct": 13.7
+        },
+        {
+          "true_class": "street_music",
+          "predicted_class": "children_playing",
+          "count": 136,
+          "true_class_total": 1000,
+          "error_rate_pct": 13.6
+        },
+        {
+          "true_class": "children_playing",
+          "predicted_class": "street_music",
+          "count": 134,
+          "true_class_total": 1000,
+          "error_rate_pct": 13.4
+        }
+      ],
+      "confusion_matrix": [
+        [
+          503,
+          4,
+          57,
+          27,
+          66,
+          71,
+          0,
+          121,
+          14,
+          137
+        ],
+        [
+          8,
+          246,
+          9,
+          17,
+          34,
+          7,
+          1,
+          4,
+          13,
+          90
+        ],
+        [
+          21,
+          1,
+          654,
+          90,
+          24,
+          24,
+          2,
+          8,
+          42,
+          134
+        ],
+        [
+          31,
+          16,
+          115,
+          708,
+          26,
+          4,
+          4,
+          0,
+          30,
+          66
+        ],
+        [
+          28,
+          11,
+          26,
+          58,
+          653,
+          34,
+          6,
+          106,
+          18,
+          60
+        ],
+        [
+          71,
+          4,
+          65,
+          4,
+          142,
+          449,
+          2,
+          121,
+          23,
+          119
+        ],
+        [
+          0,
+          4,
+          0,
+          36,
+          6,
+          0,
+          320,
+          6,
+          0,
+          2
+        ],
+        [
+          82,
+          0,
+          2,
+          5,
+          254,
+          91,
+          2,
+          492,
+          0,
+          72
+        ],
+        [
+          9,
+          3,
+          75,
+          32,
+          18,
+          19,
+          0,
+          9,
+          709,
+          55
+        ],
+        [
+          27,
+          5,
+          136,
+          54,
+          24,
+          29,
+          0,
+          25,
+          45,
+          655
+        ]
+      ],
+      "cm_plot_path": "/home/ORBITAL/soundmodel/ML_model/reports/confusion_matrices/rf_confusion_matrix.png"
+    },
+    "lgbm": {
+      "model_key": "lgbm",
+      "model_name": "LightGBM Classifier",
+      "mean_test_accuracy": 0.6314,
+      "std_test_accuracy": 0.0429,
+      "mean_train_accuracy": 1.0,
+      "mean_macro_precision": 0.6679,
+      "std_macro_precision": 0.0481,
+      "mean_macro_recall": 0.6565,
+      "std_macro_recall": 0.041,
+      "mean_macro_f1": 0.6458,
+      "std_macro_f1": 0.0457,
+      "mean_weighted_f1": 0.6206,
+      "std_weighted_f1": 0.0485,
+      "global_oof_accuracy": 0.6302,
+      "global_oof_macro_f1": 0.6533,
+      "global_oof_weighted_f1": 0.6276,
+      "total_train_time_sec": 117.21,
+      "single_sample_latency_us": 1515.9,
+      "batch_100_latency_ms": 10.85,
+      "overfitting_gap": 0.3686,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6311569301260023,
+          "macro_precision": 0.6698675052857829,
+          "macro_recall": 0.6798499907715024,
+          "macro_f1": 0.6501529451638515,
+          "weighted_f1": 0.6131101400909733,
+          "train_time_sec": 12.9
+        },
+        {
+          "fold": 2,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6148648648648649,
+          "macro_precision": 0.6612335917264409,
+          "macro_recall": 0.655434065934066,
+          "macro_f1": 0.6442502299326768,
+          "weighted_f1": 0.6071535314387297,
+          "train_time_sec": 11.09
+        },
+        {
+          "fold": 3,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.5654054054054054,
+          "macro_precision": 0.5946683837257953,
+          "macro_recall": 0.6166169301887241,
+          "macro_f1": 0.5852693583320805,
+          "weighted_f1": 0.5460552515897776,
+          "train_time_sec": 10.8
+        },
+        {
+          "fold": 4,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.5797979797979798,
+          "macro_precision": 0.6155415213378002,
+          "macro_recall": 0.5778076866479482,
+          "macro_f1": 0.5689436424774208,
+          "weighted_f1": 0.5620484107722225,
+          "train_time_sec": 12.99
+        },
+        {
+          "fold": 5,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6773504273504274,
+          "macro_precision": 0.7247175406921242,
+          "macro_recall": 0.6941650199371574,
+          "macro_f1": 0.6881109134347789,
+          "weighted_f1": 0.675246670008611,
+          "train_time_sec": 10.99
+        },
+        {
+          "fold": 6,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6075334143377886,
+          "macro_precision": 0.6345005144252881,
+          "macro_recall": 0.6452628169094933,
+          "macro_f1": 0.6350454111755102,
+          "weighted_f1": 0.5987177570812066,
+          "train_time_sec": 12.44
+        },
+        {
+          "fold": 7,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6336515513126492,
+          "macro_precision": 0.6587052033693583,
+          "macro_recall": 0.6389234381483928,
+          "macro_f1": 0.6370007006483848,
+          "weighted_f1": 0.6233214742010512,
+          "train_time_sec": 10.82
+        },
+        {
+          "fold": 8,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6203473945409429,
+          "macro_precision": 0.653578376637768,
+          "macro_recall": 0.6399562937062938,
+          "macro_f1": 0.635426496842924,
+          "weighted_f1": 0.6075055072124497,
+          "train_time_sec": 11.08
+        },
+        {
+          "fold": 9,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6691176470588235,
+          "macro_precision": 0.7023757534835469,
+          "macro_recall": 0.6873643320308702,
+          "macro_f1": 0.6782200134662125,
+          "weighted_f1": 0.6543022967393461,
+          "train_time_sec": 11.24
+        },
+        {
+          "fold": 10,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.7144563918757467,
+          "macro_precision": 0.7637827704664272,
+          "macro_recall": 0.7299007378487558,
+          "macro_f1": 0.7359488557843658,
+          "weighted_f1": 0.7180964863206936,
+          "train_time_sec": 12.86
+        }
+      ],
+      "per_class_f1": {
+        "air_conditioner": 0.5155,
+        "car_horn": 0.7545,
+        "children_playing": 0.6151,
+        "dog_bark": 0.6923,
+        "drilling": 0.5931,
+        "engine_idling": 0.5669,
+        "gun_shot": 0.9031,
+        "jackhammer": 0.5173,
+        "siren": 0.7883,
+        "street_music": 0.5862
+      },
+      "per_class_recall": {
+        "air_conditioner": 0.432,
+        "car_horn": 0.7273,
+        "children_playing": 0.66,
+        "dog_bark": 0.737,
+        "drilling": 0.675,
+        "engine_idling": 0.496,
+        "gun_shot": 0.885,
+        "jackhammer": 0.455,
+        "siren": 0.7696,
+        "street_music": 0.69
+      },
+      "top_confused_pairs": [
+        {
+          "true_class": "jackhammer",
+          "predicted_class": "drilling",
+          "count": 285,
+          "true_class_total": 1000,
+          "error_rate_pct": 28.5
+        },
+        {
+          "true_class": "air_conditioner",
+          "predicted_class": "street_music",
+          "count": 140,
+          "true_class_total": 1000,
+          "error_rate_pct": 14.0
+        },
+        {
+          "true_class": "engine_idling",
+          "predicted_class": "drilling",
+          "count": 134,
+          "true_class_total": 1000,
+          "error_rate_pct": 13.4
+        },
+        {
+          "true_class": "street_music",
+          "predicted_class": "children_playing",
+          "count": 133,
+          "true_class_total": 1000,
+          "error_rate_pct": 13.3
+        },
+        {
+          "true_class": "children_playing",
+          "predicted_class": "street_music",
+          "count": 124,
+          "true_class_total": 1000,
+          "error_rate_pct": 12.4
+        }
+      ],
+      "confusion_matrix": [
+        [
+          432,
+          18,
+          50,
+          69,
+          79,
+          87,
+          0,
+          114,
+          11,
+          140
+        ],
+        [
+          4,
+          312,
+          12,
+          17,
+          23,
+          5,
+          0,
+          1,
+          6,
+          49
+        ],
+        [
+          24,
+          6,
+          660,
+          103,
+          24,
+          24,
+          2,
+          6,
+          27,
+          124
+        ],
+        [
+          27,
+          15,
+          97,
+          737,
+          21,
+          8,
+          10,
+          0,
+          28,
+          57
+        ],
+        [
+          26,
+          24,
+          38,
+          45,
+          675,
+          17,
+          7,
+          79,
+          31,
+          58
+        ],
+        [
+          60,
+          5,
+          70,
+          41,
+          134,
+          496,
+          6,
+          75,
+          22,
+          91
+        ],
+        [
+          0,
+          0,
+          0,
+          33,
+          3,
+          0,
+          331,
+          3,
+          0,
+          4
+        ],
+        [
+          80,
+          0,
+          7,
+          1,
+          285,
+          79,
+          2,
+          455,
+          5,
+          86
+        ],
+        [
+          5,
+          7,
+          79,
+          38,
+          14,
+          12,
+          0,
+          4,
+          715,
+          55
+        ],
+        [
+          18,
+          11,
+          133,
+          45,
+          18,
+          22,
+          1,
+          22,
+          40,
+          690
+        ]
+      ],
+      "cm_plot_path": "/home/ORBITAL/soundmodel/ML_model/reports/confusion_matrices/lgbm_confusion_matrix.png"
+    },
+    "xgb": {
+      "model_key": "xgb",
+      "model_name": "XGBoost Classifier",
+      "mean_test_accuracy": 0.6317,
+      "std_test_accuracy": 0.0364,
+      "mean_train_accuracy": 1.0,
+      "mean_macro_precision": 0.6716,
+      "std_macro_precision": 0.0428,
+      "mean_macro_recall": 0.6541,
+      "std_macro_recall": 0.0347,
+      "mean_macro_f1": 0.6467,
+      "std_macro_f1": 0.039,
+      "mean_weighted_f1": 0.6222,
+      "std_weighted_f1": 0.0414,
+      "global_oof_accuracy": 0.6309,
+      "global_oof_macro_f1": 0.6548,
+      "global_oof_weighted_f1": 0.6301,
+      "total_train_time_sec": 89.15,
+      "single_sample_latency_us": 542.7,
+      "batch_100_latency_ms": 4.67,
+      "overfitting_gap": 0.3683,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6277205040091638,
+          "macro_precision": 0.6711434979677842,
+          "macro_recall": 0.6713995939461055,
+          "macro_f1": 0.6469861297549552,
+          "weighted_f1": 0.6105857499552503,
+          "train_time_sec": 9.38
+        },
+        {
+          "fold": 2,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6272522522522522,
+          "macro_precision": 0.6765018724902939,
+          "macro_recall": 0.6628315018315017,
+          "macro_f1": 0.6548179486488499,
+          "weighted_f1": 0.6198587107316116,
+          "train_time_sec": 8.83
+        },
+        {
+          "fold": 3,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.5718918918918919,
+          "macro_precision": 0.5997455942931463,
+          "macro_recall": 0.6236520458650749,
+          "macro_f1": 0.596394257752453,
+          "weighted_f1": 0.555331905102927,
+          "train_time_sec": 9.71
+        },
+        {
+          "fold": 4,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.601010101010101,
+          "macro_precision": 0.6341663581513199,
+          "macro_recall": 0.5911679099701432,
+          "macro_f1": 0.585239859578011,
+          "weighted_f1": 0.5846721074097423,
+          "train_time_sec": 8.83
+        },
+        {
+          "fold": 5,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6655982905982906,
+          "macro_precision": 0.7112772838925329,
+          "macro_recall": 0.6797242377272088,
+          "macro_f1": 0.6791833209964716,
+          "weighted_f1": 0.6657887228873601,
+          "train_time_sec": 8.88
+        },
+        {
+          "fold": 6,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6099635479951397,
+          "macro_precision": 0.6453122775146475,
+          "macro_recall": 0.6471247080160243,
+          "macro_f1": 0.6385869080586418,
+          "weighted_f1": 0.602373828015387,
+          "train_time_sec": 8.92
+        },
+        {
+          "fold": 7,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6157517899761337,
+          "macro_precision": 0.6409130482548191,
+          "macro_recall": 0.6188344440963169,
+          "macro_f1": 0.6180545757560971,
+          "weighted_f1": 0.6055315841432211,
+          "train_time_sec": 11.14
+        },
+        {
+          "fold": 8,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6240694789081885,
+          "macro_precision": 0.671765877021415,
+          "macro_recall": 0.6454580419580419,
+          "macro_f1": 0.6458717768016642,
+          "weighted_f1": 0.614547811851502,
+          "train_time_sec": 9.59
+        },
+        {
+          "fold": 9,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.6691176470588235,
+          "macro_precision": 0.708082342691436,
+          "macro_recall": 0.6850426088897532,
+          "macro_f1": 0.6786347483694651,
+          "weighted_f1": 0.6546044515097217,
+          "train_time_sec": 7.45
+        },
+        {
+          "fold": 10,
+          "train_accuracy": 1.0,
+          "test_accuracy": 0.7048984468339307,
+          "macro_precision": 0.756614109352446,
+          "macro_recall": 0.7155118715330531,
+          "macro_f1": 0.7235679006030045,
+          "weighted_f1": 0.7086386753475842,
+          "train_time_sec": 6.41
+        }
+      ],
+      "per_class_f1": {
+        "air_conditioner": 0.5367,
+        "car_horn": 0.7574,
+        "children_playing": 0.6177,
+        "dog_bark": 0.6901,
+        "drilling": 0.5971,
+        "engine_idling": 0.5729,
+        "gun_shot": 0.8901,
+        "jackhammer": 0.5155,
+        "siren": 0.7878,
+        "street_music": 0.5823
+      },
+      "per_class_recall": {
+        "air_conditioner": 0.453,
+        "car_horn": 0.7133,
+        "children_playing": 0.669,
+        "dog_bark": 0.727,
+        "drilling": 0.67,
+        "engine_idling": 0.517,
+        "gun_shot": 0.8556,
+        "jackhammer": 0.465,
+        "siren": 0.7492,
+        "street_music": 0.686
+      },
+      "top_confused_pairs": [
+        {
+          "true_class": "jackhammer",
+          "predicted_class": "drilling",
+          "count": 285,
+          "true_class_total": 1000,
+          "error_rate_pct": 28.5
+        },
+        {
+          "true_class": "air_conditioner",
+          "predicted_class": "street_music",
+          "count": 149,
+          "true_class_total": 1000,
+          "error_rate_pct": 14.9
+        },
+        {
+          "true_class": "street_music",
+          "predicted_class": "children_playing",
+          "count": 141,
+          "true_class_total": 1000,
+          "error_rate_pct": 14.1
+        },
+        {
+          "true_class": "children_playing",
+          "predicted_class": "street_music",
+          "count": 117,
+          "true_class_total": 1000,
+          "error_rate_pct": 11.7
+        },
+        {
+          "true_class": "air_conditioner",
+          "predicted_class": "jackhammer",
+          "count": 112,
+          "true_class_total": 1000,
+          "error_rate_pct": 11.2
+        }
+      ],
+      "confusion_matrix": [
+        [
+          453,
+          13,
+          53,
+          57,
+          73,
+          82,
+          0,
+          112,
+          8,
+          149
+        ],
+        [
+          4,
+          306,
+          9,
+          15,
+          24,
+          4,
+          1,
+          1,
+          6,
+          59
+        ],
+        [
+          24,
+          3,
+          669,
+          102,
+          21,
+          26,
+          2,
+          7,
+          29,
+          117
+        ],
+        [
+          25,
+          18,
+          107,
+          727,
+          19,
+          10,
+          9,
+          2,
+          21,
+          62
+        ],
+        [
+          27,
+          19,
+          37,
+          49,
+          670,
+          24,
+          6,
+          87,
+          25,
+          56
+        ],
+        [
+          52,
+          4,
+          67,
+          35,
+          110,
+          517,
+          5,
+          92,
+          17,
+          101
+        ],
+        [
+          0,
+          0,
+          0,
+          44,
+          3,
+          0,
+          320,
+          5,
+          0,
+          2
+        ],
+        [
+          81,
+          0,
+          3,
+          2,
+          285,
+          96,
+          2,
+          465,
+          2,
+          64
+        ],
+        [
+          5,
+          9,
+          80,
+          38,
+          15,
+          19,
+          0,
+          7,
+          696,
+          60
+        ],
+        [
+          17,
+          7,
+          141,
+          38,
+          24,
+          27,
+          0,
+          26,
+          34,
+          686
+        ]
+      ],
+      "cm_plot_path": "/home/ORBITAL/soundmodel/ML_model/reports/confusion_matrices/xgb_confusion_matrix.png"
+    },
+    "svm": {
+      "model_key": "svm",
+      "model_name": "Support Vector Machine (RBF)",
+      "mean_test_accuracy": 0.6305,
+      "std_test_accuracy": 0.0437,
+      "mean_train_accuracy": 0.9867,
+      "mean_macro_precision": 0.6538,
+      "std_macro_precision": 0.0459,
+      "mean_macro_recall": 0.6605,
+      "std_macro_recall": 0.0426,
+      "mean_macro_f1": 0.6447,
+      "std_macro_f1": 0.0456,
+      "mean_weighted_f1": 0.6199,
+      "std_weighted_f1": 0.0486,
+      "global_oof_accuracy": 0.6298,
+      "global_oof_macro_f1": 0.6501,
+      "global_oof_weighted_f1": 0.6256,
+      "total_train_time_sec": 51.17,
+      "single_sample_latency_us": 425.2,
+      "batch_100_latency_ms": 22.44,
+      "overfitting_gap": 0.3562,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "train_accuracy": 0.9885481613436824,
+          "test_accuracy": 0.6174112256586484,
+          "macro_precision": 0.6497766606898919,
+          "macro_recall": 0.6652723329641934,
+          "macro_f1": 0.6336207163972742,
+          "weighted_f1": 0.5941707034664172,
+          "train_time_sec": 5.12
+        },
+        {
+          "fold": 2,
+          "train_accuracy": 0.9871239163691994,
+          "test_accuracy": 0.6328828828828829,
+          "macro_precision": 0.6682387692213261,
+          "macro_recall": 0.6685091575091575,
+          "macro_f1": 0.6538773913630371,
+          "weighted_f1": 0.6269522715486563,
+          "train_time_sec": 5.04
+        },
+        {
+          "fold": 3,
+          "train_accuracy": 0.9864224413987447,
+          "test_accuracy": 0.5545945945945946,
+          "macro_precision": 0.5738089993851063,
+          "macro_recall": 0.6066506889360105,
+          "macro_f1": 0.5714291206056366,
+          "weighted_f1": 0.5323822121609333,
+          "train_time_sec": 5.06
+        },
+        {
+          "fold": 4,
+          "train_accuracy": 0.9864376130198915,
+          "test_accuracy": 0.593939393939394,
+          "macro_precision": 0.607487987851868,
+          "macro_recall": 0.5949208918845449,
+          "macro_f1": 0.5878595850605017,
+          "weighted_f1": 0.58223753594376,
+          "train_time_sec": 4.95
+        },
+        {
+          "fold": 5,
+          "train_accuracy": 0.9856336582863007,
+          "test_accuracy": 0.6997863247863247,
+          "macro_precision": 0.7241018848550056,
+          "macro_recall": 0.7155681977937943,
+          "macro_f1": 0.7124398860252189,
+          "weighted_f1": 0.6991671041935342,
+          "train_time_sec": 5.1
+        },
+        {
+          "fold": 6,
+          "train_accuracy": 0.9864711088633202,
+          "test_accuracy": 0.6281895504252734,
+          "macro_precision": 0.6343842040324904,
+          "macro_recall": 0.6671810162680445,
+          "macro_f1": 0.6443306359553544,
+          "weighted_f1": 0.6179863763272602,
+          "train_time_sec": 5.1
+        },
+        {
+          "fold": 7,
+          "train_accuracy": 0.9873321510007601,
+          "test_accuracy": 0.5883054892601431,
+          "macro_precision": 0.6211268097396913,
+          "macro_recall": 0.6067858719546319,
+          "macro_f1": 0.6057001946882201,
+          "weighted_f1": 0.5830061372253167,
+          "train_time_sec": 5.26
+        },
+        {
+          "fold": 8,
+          "train_accuracy": 0.9877617966187232,
+          "test_accuracy": 0.630272952853598,
+          "macro_precision": 0.6505544821927347,
+          "macro_recall": 0.6600332167832168,
+          "macro_f1": 0.6434322634897445,
+          "weighted_f1": 0.6205670668473279,
+          "train_time_sec": 5.15
+        },
+        {
+          "fold": 9,
+          "train_accuracy": 0.9868620515411825,
+          "test_accuracy": 0.6666666666666666,
+          "macro_precision": 0.6833112015507583,
+          "macro_recall": 0.7043772708386744,
+          "macro_f1": 0.6850389075410448,
+          "weighted_f1": 0.6495344114270394,
+          "train_time_sec": 5.18
+        },
+        {
+          "fold": 10,
+          "train_accuracy": 0.9846738442051931,
+          "test_accuracy": 0.6929510155316607,
+          "macro_precision": 0.7247991808130025,
+          "macro_recall": 0.7152345893839287,
+          "macro_f1": 0.7097396458531016,
+          "weighted_f1": 0.6926914830079324,
+          "train_time_sec": 5.21
+        }
+      ],
+      "per_class_f1": {
+        "air_conditioner": 0.481,
+        "car_horn": 0.7503,
+        "children_playing": 0.6288,
+        "dog_bark": 0.6845,
+        "drilling": 0.571,
+        "engine_idling": 0.568,
+        "gun_shot": 0.8883,
+        "jackhammer": 0.5628,
+        "siren": 0.7625,
+        "street_music": 0.6043
+      },
+      "per_class_recall": {
+        "air_conditioner": 0.404,
+        "car_horn": 0.7949,
+        "children_playing": 0.687,
+        "dog_bark": 0.744,
+        "drilling": 0.621,
+        "engine_idling": 0.539,
+        "gun_shot": 0.893,
+        "jackhammer": 0.493,
+        "siren": 0.7567,
+        "street_music": 0.633
+      },
+      "top_confused_pairs": [
+        {
+          "true_class": "jackhammer",
+          "predicted_class": "drilling",
+          "count": 241,
+          "true_class_total": 1000,
+          "error_rate_pct": 24.1
+        },
+        {
+          "true_class": "street_music",
+          "predicted_class": "children_playing",
+          "count": 118,
+          "true_class_total": 1000,
+          "error_rate_pct": 11.8
+        },
+        {
+          "true_class": "jackhammer",
+          "predicted_class": "engine_idling",
+          "count": 116,
+          "true_class_total": 1000,
+          "error_rate_pct": 11.6
+        },
+        {
+          "true_class": "engine_idling",
+          "predicted_class": "drilling",
+          "count": 113,
+          "true_class_total": 1000,
+          "error_rate_pct": 11.3
+        },
+        {
+          "true_class": "air_conditioner",
+          "predicted_class": "engine_idling",
+          "count": 110,
+          "true_class_total": 1000,
+          "error_rate_pct": 11.0
+        }
+      ],
+      "confusion_matrix": [
+        [
+          404,
+          49,
+          63,
+          89,
+          96,
+          110,
+          1,
+          65,
+          28,
+          95
+        ],
+        [
+          11,
+          341,
+          11,
+          16,
+          14,
+          2,
+          2,
+          2,
+          4,
+          26
+        ],
+        [
+          29,
+          7,
+          687,
+          90,
+          20,
+          31,
+          0,
+          1,
+          37,
+          98
+        ],
+        [
+          27,
+          14,
+          99,
+          744,
+          23,
+          5,
+          11,
+          2,
+          28,
+          47
+        ],
+        [
+          37,
+          23,
+          53,
+          47,
+          621,
+          46,
+          21,
+          92,
+          18,
+          42
+        ],
+        [
+          56,
+          6,
+          69,
+          39,
+          113,
+          539,
+          1,
+          69,
+          51,
+          57
+        ],
+        [
+          1,
+          2,
+          1,
+          26,
+          4,
+          0,
+          334,
+          5,
+          0,
+          1
+        ],
+        [
+          80,
+          7,
+          4,
+          1,
+          241,
+          116,
+          6,
+          493,
+          2,
+          50
+        ],
+        [
+          1,
+          7,
+          80,
+          58,
+          13,
+          20,
+          0,
+          1,
+          703,
+          46
+        ],
+        [
+          34,
+          24,
+          118,
+          64,
+          30,
+          29,
+          2,
+          22,
+          44,
+          633
+        ]
+      ],
+      "cm_plot_path": "/home/ORBITAL/soundmodel/ML_model/reports/confusion_matrices/svm_confusion_matrix.png"
+    }
+  },
+  "best_model": "xgb",
+  "class_names": [
+    "air_conditioner",
+    "car_horn",
+    "children_playing",
+    "dog_bark",
+    "drilling",
+    "engine_idling",
+    "gun_shot",
+    "jackhammer",
+    "siren",
+    "street_music"
+  ]
+}

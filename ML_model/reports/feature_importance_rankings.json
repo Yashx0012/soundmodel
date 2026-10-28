@@ -1,0 +1,713 @@
+{
+  "top_15_features": [
+    {
+      "feature": "mean_mfcc_4",
+      "importance": 4430,
+      "rank": 1,
+      "importance_pct": 3.025005804187209,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_3",
+      "importance": 4415,
+      "rank": 2,
+      "importance_pct": 3.01476312087732,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_0",
+      "importance": 4029,
+      "rank": 3,
+      "importance_pct": 2.7511847370361773,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_0",
+      "importance": 3853,
+      "rank": 4,
+      "importance_pct": 2.6310039195334802,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_mfcc_1",
+      "importance": 3833,
+      "rank": 5,
+      "importance_pct": 2.6173470084536277,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_6",
+      "importance": 3798,
+      "rank": 6,
+      "importance_pct": 2.593447414063887,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_7",
+      "importance": 3650,
+      "rank": 7,
+      "importance_pct": 2.4923862720729826,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_2",
+      "importance": 3577,
+      "rank": 8,
+      "importance_pct": 2.442538546631523,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_9",
+      "importance": 3540,
+      "rank": 9,
+      "importance_pct": 2.417273261133797,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_8",
+      "importance": 3530,
+      "rank": 10,
+      "importance_pct": 2.4104448055938708,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_5",
+      "importance": 3484,
+      "rank": 11,
+      "importance_pct": 2.3790339101102114,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_11",
+      "importance": 3310,
+      "rank": 12,
+      "importance_pct": 2.2602187837154992,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_10",
+      "importance": 3291,
+      "rank": 13,
+      "importance_pct": 2.24724471818964,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_spectral_spread",
+      "importance": 3147,
+      "rank": 14,
+      "importance_pct": 2.148914958414706,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_spectral_flux",
+      "importance": 2973,
+      "rank": 15,
+      "importance_pct": 2.0300998320199937,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    }
+  ],
+  "bottom_10_features": [
+    {
+      "feature": "std_mfcc_7",
+      "importance": 1651,
+      "rank": 53,
+      "importance_pct": 1.1273780096417794,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_7",
+      "importance": 1620,
+      "rank": 54,
+      "importance_pct": 1.1062097974680087,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_chroma_2",
+      "importance": 1596,
+      "rank": 55,
+      "importance_pct": 1.0898215041721864,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_9",
+      "importance": 1539,
+      "rank": 56,
+      "importance_pct": 1.0508993075946083,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_10",
+      "importance": 1537,
+      "rank": 57,
+      "importance_pct": 1.0495336164866231,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_8",
+      "importance": 1506,
+      "rank": 58,
+      "importance_pct": 1.0283654043128525,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_spectral_flatness",
+      "importance": 1499,
+      "rank": 59,
+      "importance_pct": 1.0235854854349045,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_5",
+      "importance": 1495,
+      "rank": 60,
+      "importance_pct": 1.020854103218934,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_9",
+      "importance": 1467,
+      "rank": 61,
+      "importance_pct": 1.0017344277071412,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_11",
+      "importance": 1461,
+      "rank": 62,
+      "importance_pct": 0.9976373543831857,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    }
+  ],
+  "group_contribution_pct": {
+    "Chroma Descriptors": 31.1439028720484,
+    "MFCC Descriptors": 50.78732092375347,
+    "Spectral Descriptors": 18.068776204198134
+  },
+  "stat_type_contribution_pct": {
+    "Mean": 57.15144148696448,
+    "Std": 42.84855851303552
+  },
+  "all_features_ranked": [
+    {
+      "feature": "mean_mfcc_4",
+      "importance": 4430,
+      "rank": 1,
+      "importance_pct": 3.025005804187209,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_3",
+      "importance": 4415,
+      "rank": 2,
+      "importance_pct": 3.01476312087732,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_0",
+      "importance": 4029,
+      "rank": 3,
+      "importance_pct": 2.7511847370361773,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_0",
+      "importance": 3853,
+      "rank": 4,
+      "importance_pct": 2.6310039195334802,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_mfcc_1",
+      "importance": 3833,
+      "rank": 5,
+      "importance_pct": 2.6173470084536277,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_6",
+      "importance": 3798,
+      "rank": 6,
+      "importance_pct": 2.593447414063887,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_7",
+      "importance": 3650,
+      "rank": 7,
+      "importance_pct": 2.4923862720729826,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_2",
+      "importance": 3577,
+      "rank": 8,
+      "importance_pct": 2.442538546631523,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_9",
+      "importance": 3540,
+      "rank": 9,
+      "importance_pct": 2.417273261133797,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_8",
+      "importance": 3530,
+      "rank": 10,
+      "importance_pct": 2.4104448055938708,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_5",
+      "importance": 3484,
+      "rank": 11,
+      "importance_pct": 2.3790339101102114,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_11",
+      "importance": 3310,
+      "rank": 12,
+      "importance_pct": 2.2602187837154992,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_10",
+      "importance": 3291,
+      "rank": 13,
+      "importance_pct": 2.24724471818964,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_spectral_spread",
+      "importance": 3147,
+      "rank": 14,
+      "importance_pct": 2.148914958414706,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_spectral_flux",
+      "importance": 2973,
+      "rank": 15,
+      "importance_pct": 2.0300998320199937,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_mfcc_12",
+      "importance": 2770,
+      "rank": 16,
+      "importance_pct": 1.8914821845594965,
+      "group": "MFCC Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_spectral_flux",
+      "importance": 2682,
+      "rank": 17,
+      "importance_pct": 1.831391775808148,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_2",
+      "importance": 2599,
+      "rank": 18,
+      "importance_pct": 1.774715594826762,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_4",
+      "importance": 2570,
+      "rank": 19,
+      "importance_pct": 1.7549130737609768,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_spectral_flatness",
+      "importance": 2446,
+      "rank": 20,
+      "importance_pct": 1.6702402250658948,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_1",
+      "importance": 2359,
+      "rank": 21,
+      "importance_pct": 1.6108326618685387,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_1",
+      "importance": 2266,
+      "rank": 22,
+      "importance_pct": 1.547328025347227,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_chroma_6",
+      "importance": 2234,
+      "rank": 23,
+      "importance_pct": 1.5254769676194637,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_3",
+      "importance": 2204,
+      "rank": 24,
+      "importance_pct": 1.504991600999686,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_spectral_zcr",
+      "importance": 2140,
+      "rank": 25,
+      "importance_pct": 1.4612894855441596,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_3",
+      "importance": 2128,
+      "rank": 26,
+      "importance_pct": 1.4530953388962484,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_1",
+      "importance": 2127,
+      "rank": 27,
+      "importance_pct": 1.452412493342256,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_7",
+      "importance": 2118,
+      "rank": 28,
+      "importance_pct": 1.4462668833563226,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_4",
+      "importance": 2095,
+      "rank": 29,
+      "importance_pct": 1.4305614356144927,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_10",
+      "importance": 2079,
+      "rank": 30,
+      "importance_pct": 1.4196359067506112,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_spectral_rolloff",
+      "importance": 2059,
+      "rank": 31,
+      "importance_pct": 1.4059789956707591,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_chroma_8",
+      "importance": 2029,
+      "rank": 32,
+      "importance_pct": 1.3854936290509812,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_spectral_rolloff",
+      "importance": 2028,
+      "rank": 33,
+      "importance_pct": 1.3848107834969887,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_spectral_spread",
+      "importance": 2011,
+      "rank": 34,
+      "importance_pct": 1.3732024090791144,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_6",
+      "importance": 1971,
+      "rank": 35,
+      "importance_pct": 1.3458885869194106,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_5",
+      "importance": 1968,
+      "rank": 36,
+      "importance_pct": 1.3438400502574328,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_11",
+      "importance": 1938,
+      "rank": 37,
+      "importance_pct": 1.3233546836376548,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_11",
+      "importance": 1935,
+      "rank": 38,
+      "importance_pct": 1.321306146975677,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_5",
+      "importance": 1921,
+      "rank": 39,
+      "importance_pct": 1.3117463092197805,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_9",
+      "importance": 1893,
+      "rank": 40,
+      "importance_pct": 1.292626633707988,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_0",
+      "importance": 1888,
+      "rank": 41,
+      "importance_pct": 1.2892124059380248,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_spectral_zcr",
+      "importance": 1885,
+      "rank": 42,
+      "importance_pct": 1.2871638692760472,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_6",
+      "importance": 1876,
+      "rank": 43,
+      "importance_pct": 1.2810182592901138,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_chroma_3",
+      "importance": 1873,
+      "rank": 44,
+      "importance_pct": 1.278969722628136,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_chroma_2",
+      "importance": 1830,
+      "rank": 45,
+      "importance_pct": 1.2496073638064542,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_spectral_centroid",
+      "importance": 1826,
+      "rank": 46,
+      "importance_pct": 1.2468759815904837,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_chroma_0",
+      "importance": 1819,
+      "rank": 47,
+      "importance_pct": 1.2420960627125357,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_10",
+      "importance": 1809,
+      "rank": 48,
+      "importance_pct": 1.2352676071726096,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_spectral_centroid",
+      "importance": 1765,
+      "rank": 49,
+      "importance_pct": 1.2052224027969354,
+      "group": "Spectral Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "mean_chroma_4",
+      "importance": 1699,
+      "rank": 50,
+      "importance_pct": 1.1601545962334239,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_12",
+      "importance": 1696,
+      "rank": 51,
+      "importance_pct": 1.158106059571446,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_8",
+      "importance": 1679,
+      "rank": 52,
+      "importance_pct": 1.146497685153572,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_7",
+      "importance": 1651,
+      "rank": 53,
+      "importance_pct": 1.1273780096417794,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_7",
+      "importance": 1620,
+      "rank": 54,
+      "importance_pct": 1.1062097974680087,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_chroma_2",
+      "importance": 1596,
+      "rank": 55,
+      "importance_pct": 1.0898215041721864,
+      "group": "Chroma Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_9",
+      "importance": 1539,
+      "rank": 56,
+      "importance_pct": 1.0508993075946083,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_10",
+      "importance": 1537,
+      "rank": 57,
+      "importance_pct": 1.0495336164866231,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_8",
+      "importance": 1506,
+      "rank": 58,
+      "importance_pct": 1.0283654043128525,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_spectral_flatness",
+      "importance": 1499,
+      "rank": 59,
+      "importance_pct": 1.0235854854349045,
+      "group": "Spectral Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "mean_chroma_5",
+      "importance": 1495,
+      "rank": 60,
+      "importance_pct": 1.020854103218934,
+      "group": "Chroma Descriptors",
+      "stat_type": "Mean"
+    },
+    {
+      "feature": "std_mfcc_9",
+      "importance": 1467,
+      "rank": 61,
+      "importance_pct": 1.0017344277071412,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    },
+    {
+      "feature": "std_mfcc_11",
+      "importance": 1461,
+      "rank": 62,
+      "importance_pct": 0.9976373543831857,
+      "group": "MFCC Descriptors",
+      "stat_type": "Std"
+    }
+  ]
+}

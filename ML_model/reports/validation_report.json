@@ -1,0 +1,242 @@
+{
+  "dataset_path": "/home/ORBITAL/soundmodel/UrbanSound8K_Processed/UrbanSound8K.csv",
+  "checks": {
+    "dimensions": {
+      "status": "PASS",
+      "actual_rows": 8732,
+      "expected_rows": 8732,
+      "actual_columns": 70,
+      "expected_columns": 70
+    },
+    "feature_identification": {
+      "status": "PASS",
+      "feature_count": 62,
+      "expected_feature_count": 62,
+      "metadata_columns_found": [
+        "slice_file_name",
+        "fsID",
+        "start",
+        "end",
+        "salience",
+        "fold",
+        "classID",
+        "class"
+      ],
+      "missing_metadata_columns": [],
+      "feature_columns": [
+        "mean_spectral_centroid",
+        "mean_spectral_spread",
+        "mean_spectral_rolloff",
+        "mean_spectral_flatness",
+        "mean_spectral_flux",
+        "mean_spectral_zcr",
+        "mean_mfcc_0",
+        "mean_mfcc_1",
+        "mean_mfcc_2",
+        "mean_mfcc_3",
+        "mean_mfcc_4",
+        "mean_mfcc_5",
+        "mean_mfcc_6",
+        "mean_mfcc_7",
+        "mean_mfcc_8",
+        "mean_mfcc_9",
+        "mean_mfcc_10",
+        "mean_mfcc_11",
+        "mean_mfcc_12",
+        "mean_chroma_0",
+        "mean_chroma_1",
+        "mean_chroma_2",
+        "mean_chroma_3",
+        "mean_chroma_4",
+        "mean_chroma_5",
+        "mean_chroma_6",
+        "mean_chroma_7",
+        "mean_chroma_8",
+        "mean_chroma_9",
+        "mean_chroma_10",
+        "mean_chroma_11",
+        "std_spectral_centroid",
+        "std_spectral_spread",
+        "std_spectral_rolloff",
+        "std_spectral_flatness",
+        "std_spectral_flux",
+        "std_spectral_zcr",
+        "std_mfcc_0",
+        "std_mfcc_1",
+        "std_mfcc_2",
+        "std_mfcc_3",
+        "std_mfcc_4",
+        "std_mfcc_5",
+        "std_mfcc_6",
+        "std_mfcc_7",
+        "std_mfcc_8",
+        "std_mfcc_9",
+        "std_mfcc_10",
+        "std_mfcc_11",
+        "std_mfcc_12",
+        "std_chroma_0",
+        "std_chroma_1",
+        "std_chroma_2",
+        "std_chroma_3",
+        "std_chroma_4",
+        "std_chroma_5",
+        "std_chroma_6",
+        "std_chroma_7",
+        "std_chroma_8",
+        "std_chroma_9",
+        "std_chroma_10",
+        "std_chroma_11"
+      ]
+    },
+    "missing_values": {
+      "status": "PASS",
+      "total_missing_values": 0,
+      "columns_with_missing_values": {}
+    },
+    "duplicate_records": {
+      "status": "PASS",
+      "full_row_duplicates": 0,
+      "slice_filename_duplicates": 0,
+      "feature_vector_duplicates": 0
+    },
+    "numeric_validity": {
+      "status": "PASS",
+      "non_numeric_feature_columns": [],
+      "columns_with_infinite_values": {}
+    },
+    "label_consistency": {
+      "status": "PASS",
+      "unique_classes_count": 10,
+      "expected_classes_count": 10,
+      "class_id_to_name": {
+        "0": "air_conditioner",
+        "1": "car_horn",
+        "2": "children_playing",
+        "3": "dog_bark",
+        "4": "drilling",
+        "5": "engine_idling",
+        "6": "gun_shot",
+        "7": "jackhammer",
+        "8": "siren",
+        "9": "street_music"
+      },
+      "inconsistencies": []
+    },
+    "class_distribution": {
+      "air_conditioner": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 0
+      },
+      "car_horn": {
+        "count": 429,
+        "percentage": 4.91,
+        "classID": 1
+      },
+      "children_playing": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 2
+      },
+      "dog_bark": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 3
+      },
+      "drilling": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 4
+      },
+      "engine_idling": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 5
+      },
+      "gun_shot": {
+        "count": 374,
+        "percentage": 4.28,
+        "classID": 6
+      },
+      "jackhammer": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 7
+      },
+      "siren": {
+        "count": 929,
+        "percentage": 10.64,
+        "classID": 8
+      },
+      "street_music": {
+        "count": 1000,
+        "percentage": 11.45,
+        "classID": 9
+      }
+    },
+    "fold_distribution": {
+      "status": "PASS",
+      "folds_present": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "distribution": {
+        "1": {
+          "count": 873,
+          "percentage": 10.0
+        },
+        "2": {
+          "count": 888,
+          "percentage": 10.17
+        },
+        "3": {
+          "count": 925,
+          "percentage": 10.59
+        },
+        "4": {
+          "count": 990,
+          "percentage": 11.34
+        },
+        "5": {
+          "count": 936,
+          "percentage": 10.72
+        },
+        "6": {
+          "count": 823,
+          "percentage": 9.43
+        },
+        "7": {
+          "count": 838,
+          "percentage": 9.6
+        },
+        "8": {
+          "count": 806,
+          "percentage": 9.23
+        },
+        "9": {
+          "count": 816,
+          "percentage": 9.34
+        },
+        "10": {
+          "count": 837,
+          "percentage": 9.59
+        }
+      }
+    }
+  },
+  "summary": {
+    "overall_status": "VALIDATED",
+    "total_records": 8732,
+    "total_features": 62,
+    "total_classes": 10,
+    "total_folds": 10
+  }
+}
